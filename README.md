@@ -4,7 +4,7 @@ This is a tool for easy control of multi-scene-editing.
 ![unityscenemenu_screenshot](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu.png)
 
 ## Supported Unity versions  
-comming soon...
+Unity5.4 or higher  
 
 # Usage
 You can load/unload scenes easily By registering scenes to UnitySceneMenu.
