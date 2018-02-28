@@ -1,5 +1,6 @@
 # UnitySceneMenu
-This is a tool for easy control of multi-scene-editing.
+This is a tool for easy control of multi-scene-editing.   
+Available on AssetStore: https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222
 
 ![unityscenemenu_screenshot](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu.png)
 
