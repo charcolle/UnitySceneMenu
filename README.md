@@ -1,4 +1,6 @@
-# UnitySceneMenu
+[日本語のREADME](README.ja.md)
+  
+# UnitySceneMenu v1.1
 This is a tool for easy control of multi-scene-editing.   
 Available on AssetStore: https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222
 
@@ -8,7 +10,7 @@ Available on AssetStore: https://assetstore.unity.com/packages/tools/utilities/u
 Unity5.4 or higher  
 
 # Usage
-You can load/unload scenes easily By registering scenes to UnitySceneMenu.
+You can load/unload scenes easily by registering scenes to UnitySceneMenu.
 Also you can set Build-Settings automatically.
 
 You must register the scenes to a menu before using UnitySceneMenu.  
@@ -35,9 +37,13 @@ You must register the scenes to a menu before using UnitySceneMenu.
 
 ![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_2.gif)
   
+4. You can load a single scene when select the scene with holding the left-ctrl key. 
+  
+![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_3.gif)
+  
 ### ◆Auto SetUp BuildSetting
 1. You can use auto-setup BuildSettings from *Build Menu*.
 2. Enable *Use Auto BuildSetting* and drag and drop the directory to *BuildScene RootPath*  which has build scenes.
 3. You can select the first scene. Drag and drop the scene of first to *FirstScenePath*.
     
-![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_3.gif)
+![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_4.gif)
