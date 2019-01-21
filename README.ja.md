@@ -1,4 +1,4 @@
-# UnitySceneMenu v1.1
+# UnitySceneMenu v1.1.1
 マルチシーンで作業するのに便利なツールです。  
 AssetStore: https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222
 

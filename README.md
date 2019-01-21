@@ -1,6 +1,6 @@
 [日本語のREADME](README.ja.md)
   
-# UnitySceneMenu v1.1
+# UnitySceneMenu v1.1.1
 This is a tool for easy control of multi-scene-editing.   
 Available on AssetStore: https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222
 
