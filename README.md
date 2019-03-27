@@ -1,49 +1,98 @@
-[日本語のREADME](README.ja.md)
+[日本語のREADME](README_JA.md)
+
+# UnitySceneMenu
+![](https://img.shields.io/badge/version-v2.0.0-brightgreen.svg)  
+This is a tool for easy control of multi-scene-editing.  
+[AssetStore(not up to date)](https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222)
+
+![gif](desc/unityscenemenu_v2.gif)
+
+## Supported Unity versions
+Unity5.6 or newer
+
+# Contact
+Any request are welcome :)  
+[UnityConnect UnitySceneMemo(not yet)]()
+
+# 使い方
+[Youtube](https://youtu.be/TvXUYsBicRw)  
+
+![img](desc/unityscenemenu_main.png)  
+
+* [Config Window](##Config-Window)
+    * [Scene Menu Setting](###Scene-Menu-Setting)
+    * [Add Scenes to Menu](###Add-Scenes-to-Menu)
+* [SceneMenu Window](##SceneMenu-Window)
+* [Auto Build Scenes Setting](##Auto-Build-Scenes-Setting)
+
+## Config Window
+To Use SceneMenu, you may create a menu and add scenes to the menu.  
+Select [Window]->[SceneMenu]->[Config] to open Config Window.  
+
+### Scene Menu Setting
+#### Create Menu
+At the left column, create a menu by selecting **[Create] at the right-click context menu**. A menu named *New Menu* will be created and you can edit the name.  
+![img](desc/unityscenemenu_menu_create.png)　
+
+#### Edit Menu
+Edit a menu by selecting it for long time or selecting [**Rename**] at the right-click context menu.  
+
+#### Delete Menu
+Delete a menu by selecting **[Delete] at the right-click context menu**.   
+
+#### Sort Menu Order
+Move to any position by dragging a menu.  
   
-# UnitySceneMenu v1.1.1
-This is a tool for easy control of multi-scene-editing.   
-Available on AssetStore: https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222
+### Add Scenes to Menu
+#### Add Scene
+At the right column, there are all scenes in the Project. Select the scenes you want add to the menu.  
+When selecting a scene, the scene will be added to the menu and it will be shown at the center column.  
+![img](desc/unityscenemenu_scene_add.png)　
 
-![unityscenemenu_screenshot](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu.png)
+#### Remove Scene
+Delete a scene by selecting **[Delete] at the right-click context menu**.   
+Also delete a scene by selecting the scene again at the right column.  
 
-## Supported Unity versions  
-Unity5.4 or higher  
+#### Sort Scene Order
+Move to any position by dragging a scene.  
+This order is important when you use SceneMenu.  
 
-# Usage
-You can load/unload scenes easily by registering scenes to UnitySceneMenu.
-Also you can set Build-Settings automatically.
+#### BaseScene Setting
+The BaseScene is the scene loaded at first When you switch SceneMenu.  
+The BaseScene is displayed as blue color at the scene list.  
+The BaseScene must be at the first of the list, but you can change the number of the BaseScene. Select *Name of the Menu* at the top of the center column and set the number of Basic Scene. The scenes from the number from the first scene is set as the BaseScene.
 
-You must register the scenes to a menu before using UnitySceneMenu.  
+![img](desc/unityscenemenu_basicscene_1.png)　
+![img](desc/unityscenemenu_basicscene_2.png)
 
-### ◆Config
+## SceneMenu Window
+Select [Window]->[SceneMenu]->[Scenes] to open SceneMenu Window.  
 
-1. Open UnitySceneMenu-Config. [Window]-[SceneMenu]-[Config]
-2. Create a menu by pushing [+] button in the left column. You can edit the name of the menu by selecting [Edit] toggle. You can delete the menu by pushing [-] button.
-3.  After selecting the menu, all scenes in your project are shown in the right colmn and then select the scenes you want to register to the menu. You can search your scene at search bar easily. You can delete the scene from the menu by deselecting the scene or by pushing [-] button int the center colmn.  
-  
-*NOTE : The scene which has a scene icon is in your build.*  
+### Usage
+1. Switch the menu at this area. The menu you created will be shown at pull-down menu.  
+![img](desc/unityscenemenu_scenemenu_1.png)  
 
-![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_1.gif)
+1. Load a scene by selecting the name of a scene.  
 
-### ◆SceneMenu
-1. Open UnitySceneMenu. [Window]-[SceneMenu]-[Scenes].
-2. The Scenes which you registered to the menu are shown. You can load/unload the scenes very easily.
-3. The dropdown menu has the menu you created. You can switch a menu by selecting other menu from the dropdown menu.  
-  
-*NOTE:*  
-*1. The scene at the top of the menu is loaded at first. The other scenes are shown at the hierarchy in not loaded state.*  
-*2. When switching a menu, the  all scenes in before menu are unloaded and the new scenes are loaded.*  
-*3. You cannot switch a menu nor select the scenes in editor-playing mode.*    
+1. When select a scene with holding left-Ctrl key, load the scene only.
 
-![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_2.gif)
-  
-4. You can load a single scene when select the scene with holding the left-ctrl key. 
-  
-![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_3.gif)
-  
-### ◆Auto SetUp BuildSetting
-1. You can use auto-setup BuildSettings from *Build Menu*.
-2. Enable *Use Auto BuildSetting* and drag and drop the directory to *BuildScene RootPath*  which has build scenes.
-3. You can select the first scene. Drag and drop the scene of first to *FirstScenePath*.
-    
-![unityscenemenu_config](https://github.com/charcolle/UnitySceneMenu/blob/master/DescFiles/unityscenemenu_4.gif)
+1. **Refresh** button reset the load of the scenes.
+
+1. When the menu has a lot of scenes, you can find the scenes by mouse-wheel scrolling. Also, you can find the scene quickly by searching the name of the scene.  
+
+1. The loaded scenes will be displayed when you turn on **Current Loaded** toggle.  
+
+1. You can open Config Window from window menu.    
+![img](desc/unityscenemenu_scenemenu_2.png)  
+
+## Auto Build Scenes Setting
+You can register the scenes in the menu to the Build Scenes.  
+
+### Set Auto Build Scenes
+Select the menu and select **[Set as BuildTarget] at the right-click context menu**. The scenes in the menu are set to the Build Scenes in its order.  The Menu set as BuildTarget has the Scene Icon.  
+The scenes added to the menu later set as BuildTarget will be automatically set to Build Scenes.  
+
+![img](desc/unityscenemenu_buildscene.png)  
+
+### Remove Auto Build Scenes
+Select the menu and select **[Remove from BuildTarget] at the right-click context menu**.  
