@@ -3,7 +3,7 @@
 # UnitySceneMenu
 ![](https://img.shields.io/badge/version-v2.0.0-brightgreen.svg)  
 This is a tool for easy control of multi-scene-editing.  
-[AssetStore(not up to date)](https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222)
+[AssetStore](https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222)
 
 ![gif](desc/unityscenemenu_v2.gif)
 
@@ -12,9 +12,9 @@ Unity5.6 or newer
 
 # Contact
 Any request are welcome :)  
-[UnityConnect UnitySceneMemo(not yet)]()
+[UnityConnect UnitySceneMenu](https://connect.unity.com/p/unityscenemenu)
 
-# 使い方
+# Usage
 [Youtube](https://youtu.be/TvXUYsBicRw)  
 
 ![img](desc/unityscenemenu_main.png)  

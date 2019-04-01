@@ -1,7 +1,7 @@
-# UnitySceneMenu v2.0.0
+# UnitySceneMenu
 ![](https://img.shields.io/badge/version-v2.0.0-brightgreen.svg)  
 マルチシーンで作業するのに便利なツールです。  
-[AssetStore(審査中)](https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222)
+[AssetStore](https://assetstore.unity.com/packages/tools/utilities/unityscenemenu-111222)
 
 ![gif](desc/unityscenemenu_v2.gif)
 
@@ -10,7 +10,7 @@ Unity5.6以上
 
 # Forum
 どんな要望も大歓迎です :)    
-[UnityConnect UnitySceneMemo Forum（準備中）]()
+[UnityConnect UnitySceneMenu](https://connect.unity.com/p/unityscenemenu)
 
 # 使い方
 [Youtube](https://youtu.be/TvXUYsBicRw)  
